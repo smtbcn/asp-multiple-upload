@@ -1,8 +1,8 @@
 ﻿<%
-	id				= request.querystring("id")
+	id			= request.querystring("id")
 	nowtime			= DateAdd("h",9,Now())
 	savefolder		= "/upload/"
-	savefolderth	= "/upload/thumbnails/"
+	savefolderth		= "/upload/thumbnails/"
 	maxwidth		= 1024
 	maxheight		= 768
 	thumbssize		= 400
